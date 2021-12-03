@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodeFoxx.NetworkLibrary
+namespace CodeFoxxLibrary.NetworkLibrary
 {
     public class NetworkManager
     {
@@ -41,3 +41,4 @@ namespace CodeFoxx.NetworkLibrary
         }
     }
 }
+
