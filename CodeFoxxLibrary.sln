@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationLibrary", "Aut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLibrary", "NetworkLibrary\NetworkLibrary.csproj", "{B8902E47-65EE-4F08-9996-EED75DF3B72D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLibrary", "LogLibrary\LogLibrary.csproj", "{8FC17E48-394E-48A5-9761-D2E485F5A645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLibraryTestProject", "LogLibraryTestProject\LogLibraryTestProject.csproj", "{8A18C963-9D1C-4A36-ACDD-225B856783BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B8902E47-65EE-4F08-9996-EED75DF3B72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8902E47-65EE-4F08-9996-EED75DF3B72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8902E47-65EE-4F08-9996-EED75DF3B72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC17E48-394E-48A5-9761-D2E485F5A645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC17E48-394E-48A5-9761-D2E485F5A645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC17E48-394E-48A5-9761-D2E485F5A645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC17E48-394E-48A5-9761-D2E485F5A645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A18C963-9D1C-4A36-ACDD-225B856783BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A18C963-9D1C-4A36-ACDD-225B856783BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A18C963-9D1C-4A36-ACDD-225B856783BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A18C963-9D1C-4A36-ACDD-225B856783BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
