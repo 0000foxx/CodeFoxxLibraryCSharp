@@ -1,2 +1,2 @@
 # CodeFoxxLibraryCSharp
-Personal C# library
+public C# library
