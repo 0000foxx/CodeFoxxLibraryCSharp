@@ -1,5 +1,4 @@
-﻿using System;
-using CodeFoxxLibrary.NetworkLibrary;
+﻿using CodeFoxxLibrary.NetworkLibrary;
 using NUnit.Framework;
 
 namespace NetworkLibraryTestProject
