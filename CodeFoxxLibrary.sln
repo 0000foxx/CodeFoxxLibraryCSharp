@@ -15,6 +15,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLibraryTestProject", "Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLibraryTestProject", "NetworkLibraryTestProject\NetworkLibraryTestProject.csproj", "{66F3F59D-C98C-4673-847B-A1DA543AF290}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailLibrary", "EmailLibrary\EmailLibrary.csproj", "{0C48F1B8-8FE4-45BF-8071-026CBBA7E1CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptographyLibrary", "CryptographyLibrary\CryptographyLibrary.csproj", "{CDE1A0F1-7E24-43B6-96F1-503426A72225}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptographyLibraryTestProject", "CryptographyLibraryTestProject\CryptographyLibraryTestProject.csproj", "{609558B3-20C8-49EC-B8C3-FCDD9CCB3DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallWebServiceLibrary", "CallWebService\CallWebServiceLibrary.csproj", "{CC030F7F-0917-443C-B8FE-526B9045FF3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallWebServiceLibraryTestProject", "CallWebServiceLibraryTestProject\CallWebServiceLibraryTestProject.csproj", "{0D17B3D5-6F8C-43EF-BAFA-2B0841F0909F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailLibraryTestProject", "EmailLibraryTestProject\EmailLibraryTestProject.csproj", "{4DCF12F9-81DE-4304-92E7-491A6E2D4A33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +57,30 @@ Global
 		{66F3F59D-C98C-4673-847B-A1DA543AF290}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66F3F59D-C98C-4673-847B-A1DA543AF290}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66F3F59D-C98C-4673-847B-A1DA543AF290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C48F1B8-8FE4-45BF-8071-026CBBA7E1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C48F1B8-8FE4-45BF-8071-026CBBA7E1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C48F1B8-8FE4-45BF-8071-026CBBA7E1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C48F1B8-8FE4-45BF-8071-026CBBA7E1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE1A0F1-7E24-43B6-96F1-503426A72225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE1A0F1-7E24-43B6-96F1-503426A72225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE1A0F1-7E24-43B6-96F1-503426A72225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE1A0F1-7E24-43B6-96F1-503426A72225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609558B3-20C8-49EC-B8C3-FCDD9CCB3DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609558B3-20C8-49EC-B8C3-FCDD9CCB3DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609558B3-20C8-49EC-B8C3-FCDD9CCB3DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609558B3-20C8-49EC-B8C3-FCDD9CCB3DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC030F7F-0917-443C-B8FE-526B9045FF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC030F7F-0917-443C-B8FE-526B9045FF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC030F7F-0917-443C-B8FE-526B9045FF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC030F7F-0917-443C-B8FE-526B9045FF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D17B3D5-6F8C-43EF-BAFA-2B0841F0909F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D17B3D5-6F8C-43EF-BAFA-2B0841F0909F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D17B3D5-6F8C-43EF-BAFA-2B0841F0909F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D17B3D5-6F8C-43EF-BAFA-2B0841F0909F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCF12F9-81DE-4304-92E7-491A6E2D4A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCF12F9-81DE-4304-92E7-491A6E2D4A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCF12F9-81DE-4304-92E7-491A6E2D4A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCF12F9-81DE-4304-92E7-491A6E2D4A33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
