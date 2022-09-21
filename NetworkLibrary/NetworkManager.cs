@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Net;
+using System.Net.Sockets;
+using LogLibrary;
 
 namespace CodeFoxxLibrary.NetworkLibrary
 {
@@ -37,7 +40,26 @@ namespace CodeFoxxLibrary.NetworkLibrary
             }
 
             return NetType.INTERNET;
+        }
 
+        public static string GetLocalIP()
+        {
+            string localIP = string.Empty;
+            try
+            {
+                using (Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, 0))
+                {
+                    socket.Connect("8.8.8.8", 65530);
+                    IPEndPoint endPoint = socket.LocalEndPoint as IPEndPoint;
+                    localIP = endPoint.Address.ToString();
+                }
+            }
+            catch (Exception e)
+            {
+                LogManager.Debug(e.ToString());
+            }
+
+            return localIP;
         }
     }
 }

@@ -44,5 +44,11 @@
     <Compile Include="NetworkManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogLibrary\LogLibrary.csproj">
+      <Project>{8fc17e48-394e-48a5-9761-d2e485f5a645}</Project>
+      <Name>LogLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
