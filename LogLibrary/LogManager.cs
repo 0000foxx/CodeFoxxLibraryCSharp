@@ -6,7 +6,7 @@ namespace LogLibrary
     public class LogManager
     {
 
-        private static ILogger sLogger = null;
+        private static NLog.ILogger sLogger = null;
 
         static LogManager()
         {
