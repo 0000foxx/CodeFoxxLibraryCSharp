@@ -57,15 +57,15 @@ namespace CodeFoxxLibrary.ExceptionLibrary
         private static void CatchUIThreadException(object sender, ThreadExceptionEventArgs e)
         {
             string processedExceptionMessage = ProcessExceptionMessage(e.Exception, e.ToString());
-            sLogger.Debug($"{CLASS_NAME}, {processedExceptionMessage}");
             MessageBox.Show(processedExceptionMessage, "UI執行緒異常-系統錯誤", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            sLogger.Debug($"{CLASS_NAME}, {e.Exception}");
         }
 
         private static void CatchNonUIThreadException(object sender, UnhandledExceptionEventArgs e)
         {
             string processedExceptionMessage = ProcessExceptionMessage(e.ExceptionObject as Exception, e.ToString());
-            sLogger.Debug($"{CLASS_NAME}, {processedExceptionMessage}");
             MessageBox.Show(processedExceptionMessage, "非UI執行緒異常-系統錯誤", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            sLogger.Debug($"{CLASS_NAME}, {e.ExceptionObject as Exception}");
         }
 
         /// <summary>
